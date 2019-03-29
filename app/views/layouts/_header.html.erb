@@ -1,11 +1,11 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "Empire Strikes Back", "#", id: "logo" %>
+    <%= link_to "Empire Strikes Back", home_path , id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", home_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Roster", 'https://swgoh.gg/g/2602/empire-strikes-back/' %></li>
+        <li><%= link_to "Roster", 'https://swgoh.gg/g/2602/empire-strikes-back/', target: "_blank"%></li>
         <li><%= link_to "Log in", help_path %></li>
       </ul>
     </nav>
